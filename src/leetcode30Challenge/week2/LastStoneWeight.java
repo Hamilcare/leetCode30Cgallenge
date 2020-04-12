@@ -1,8 +1,7 @@
-package leetcode30Challenge;
+package leetcode30Challenge.week2;
 
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
+
 import java.util.PriorityQueue;
 
 public class LastStoneWeight {
@@ -20,20 +19,25 @@ public class LastStoneWeight {
 		for (int i : stones) {
 			queue.add(i);
 		}
-		
+
 		int queueSize = stones.length;
-		while (queueSize>1) {
+		while (queueSize > 1) {
 			int y = queue.poll();
 			int x = queue.poll();
-			if(y>x) {
-				queue.add(y-x);
+			if (y > x) {
+				queue.add(y - x);
 				queueSize--;
-			}else {
-				queueSize-=2;
+			} else {
+				queueSize -= 2;
 			}
 		}
-		System.out.println(queue.poll());
-		return 0;
+
+		if (queueSize == 1) {
+			return queue.poll();
+		} else {
+			return 0;
+		}
+
 	}
 }
 

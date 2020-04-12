@@ -1,4 +1,4 @@
-package leetcode30Challenge;
+package leetcode30Challenge.week1;
 
 public class MoveZeroes {
 	public static void main(String[] args) {

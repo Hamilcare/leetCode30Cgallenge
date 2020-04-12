@@ -1,4 +1,4 @@
-package leetcode30Challenge;
+package leetcode30Challenge.week1;
 
 import java.util.ArrayList;
 import java.util.HashSet;

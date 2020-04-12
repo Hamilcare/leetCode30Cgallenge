@@ -1,4 +1,4 @@
-package leetcode30Challenge;
+package leetcode30Challenge.week1;
 
 public class MaximumSubarray {
 	/*static int[] nums = { -57, 9, -72, -72, -62, 45, -97, 24, -39, 35, -82, -4, -63, 1, -93, 42, 44, 1, -75, -25, -87, -16,

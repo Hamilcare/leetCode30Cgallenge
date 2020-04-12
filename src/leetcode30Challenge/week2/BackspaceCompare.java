@@ -1,4 +1,4 @@
-package leetcode30Challenge;
+package leetcode30Challenge.week2;
 
 import java.util.Stack;
 

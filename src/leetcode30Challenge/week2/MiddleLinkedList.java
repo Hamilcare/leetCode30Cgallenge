@@ -1,6 +1,5 @@
-package leetcode30Challenge;
+package leetcode30Challenge.week2;
 
-import java.awt.List;
 
 public class MiddleLinkedList {
 

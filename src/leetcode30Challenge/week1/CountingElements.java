@@ -1,10 +1,7 @@
-package leetcode30Challenge;
+package leetcode30Challenge.week1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 
 public class CountingElements {
@@ -49,10 +46,6 @@ public class CountingElements {
 				int countValue = entry.getValue();
 				Integer nbNext = map.get(value + 1);
 				if (null != nbNext) {
-//					int count = Math.min(countValue, nbNext);
-//					resul += count;
-//					map.put(value, Math.max(countValue - count, 1));
-//					map.put(value + 1, Math.max(nbNext - count, 1));
 					resul +=countValue;
 				}
 			}
